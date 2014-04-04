@@ -115,8 +115,8 @@ public abstract class CoverageObject<SELF extends CoverageObject<SELF>> {
         StringBuilder buf = new StringBuilder();
         printRatioCell(isFailed(), clazz, buf);
         printRatioCell(isFailed(), method, buf);
-        printRatioCell(isFailed(), block, buf);
-        printRatioCell(isFailed(), line, buf);
+//        printRatioCell(isFailed(), block, buf);
+//        printRatioCell(isFailed(), line, buf);
         printRatioCell(isFailed(), condition, buf);
         return buf.toString();
     }
