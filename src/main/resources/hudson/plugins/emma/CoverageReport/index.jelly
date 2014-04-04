@@ -8,7 +8,7 @@
       <h3>${%Overall Coverage Summary}</h3>
       <e:summaryTable title="${%all}"/>
 
-      <h3>${%Coverage Breakdown by Package}</h3>
+      <h3>${%Coverage Breakdown by Workflow}</h3>
       <e:breakdownTable />
     </l:main-panel>
   </l:layout>
