@@ -6,7 +6,7 @@
       <e:floatingTrendGraph/>
 
       <h3>${%Overall Coverage Summary}</h3>
-      <e:summaryTable title="${%all classes}"/>
+      <e:summaryTable title="${%all}"/>
 
       <h3>${%Coverage Breakdown by Package}</h3>
       <e:breakdownTable />
