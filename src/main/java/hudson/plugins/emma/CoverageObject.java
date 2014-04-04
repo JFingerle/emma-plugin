@@ -189,14 +189,14 @@ public abstract class CoverageObject<SELF extends CoverageObject<SELF>> {
                 for (CoverageObject<SELF> a = obj; a != null; a = a.getPreviousResult()) {
                     NumberOnlyBuildLabel label = new NumberOnlyBuildLabel(a.getBuild());
                     dsb.add(a.clazz.getPercentageFloat(), Messages.CoverageObject_Legend_Class(), label);
-                    dsb.add(a.block.getPercentageFloat(), Messages.CoverageObject_Legend_Block(), label);
+//                    dsb.add(a.block.getPercentageFloat(), Messages.CoverageObject_Legend_Block(), label);
                     dsb.add(a.method.getPercentageFloat(), Messages.CoverageObject_Legend_Method(), label);
-                    if (a.line != null) {
-                        dsb.add(a.line.getPercentageFloat(), Messages.CoverageObject_Legend_Line(), label);
-                    }
-                    if (a.condition != null) {
-                        dsb.add(a.condition.getPercentageFloat(), Messages.CoverageObject_Legend_Condition(), label);
-                    }
+//                    if (a.line != null) {
+//                        dsb.add(a.line.getPercentageFloat(), Messages.CoverageObject_Legend_Line(), label);
+//                    }
+//                    if (a.condition != null) {
+//                        dsb.add(a.condition.getPercentageFloat(), Messages.CoverageObject_Legend_Condition(), label);
+//                    }
                 }
 
                 return dsb;
